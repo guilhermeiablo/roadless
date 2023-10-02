@@ -1,0 +1,2 @@
+grep . Oceania-Full.tsv | cut -f2 > Oceania.geojson
+ogr2ogr -f GPKG Oceania.gpkg Oceania.geojson
